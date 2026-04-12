@@ -1,9 +1,9 @@
 ---
 layout: default
-title: WeatherOnTheRoute Docs
+title: Owl Software Studio Docs
 ---
 
-# WeatherOnTheRoute Documentation
+# Documentation
 
-- [Privacy Policy](./privacy-policy)
-- [Support](./support)
+- [What To Wear](./whattowear/)
+- [WeatherOnTheRoute](./ontheroute/)
