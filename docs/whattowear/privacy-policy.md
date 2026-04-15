@@ -1,20 +1,21 @@
 # Privacy Policy — WhatToWear
 
-**Last updated:** April 12, 2026  
+**Last updated:** April 15, 2026  
 
 This policy describes how the **WhatToWear** iOS app (“the App”) handles information. WhatToWear suggests clothing layers based on weather and your preferences. The routine is designed to stay **on your device** as much as possible; the App does not require you to create an account.
 
 **Developer:** Owl Studios (bundle identifier `com.owlstudios.whattowear`).  
 
-If you have questions about this policy, contact us at [support@owlsoftware.studio](mailto:support@owlsoftware.studio?subject=WhatToWear%20Privacy%20Inquiry).
+If you have questions about this policy, contact us at **support@owlsoftware.studio**.
 
 ---
 
 ## Summary
 
-- The App **does not sell your personal information** and, in the current version, **does not include third-party advertising or analytics SDKs** as described in the open-source project.
+- The App **does not sell your personal information** and does not use third-party analytics SDKs.
+- The current version includes **Google AdMob** to display banner ads and supports an in-app purchase to remove ads.
 - **Location** is optional. You can use a **manually chosen city** instead of device location.
-- **Weather** is fetched from **Open-Meteo** using approximate coordinates. **Severe weather alerts** (where supported) may be fetched from the **U.S. National Weather Service (NWS)** API using coordinates.
+- **Weather** is fetched from a public weather provider using approximate coordinates. **Severe weather alerts** (where supported) may be fetched from the **U.S. National Weather Service (NWS)** API using coordinates.
 - **Profile, saved cities, wardrobe notes, cached weather, and widget data** are stored **locally** on your iPhone (and shared with the App’s **widget** via Apple’s **App Group** container). This data is **not** transmitted to Owl Studios’ servers (the App does not operate its own backend for these features in the described build).
 
 ---
@@ -31,7 +32,7 @@ You can change or revoke location access anytime in **Settings → Privacy & Sec
 
 ### 2. Weather and alerts (network)
 
-- **Open-Meteo** — Forecast data is requested from Open-Meteo’s public API (`api.open-meteo.com`). Requests include **coordinates** (and standard technical data such as your device’s IP address as seen by Open-Meteo’s servers). See Open-Meteo’s terms and privacy documentation for how they handle API traffic.
+- **Forecast provider** — Forecast data is requested from a public weather API. Requests include **coordinates** (and standard technical data such as your device’s IP address as seen by the provider’s servers). See your provider’s terms and privacy documentation for how they handle API traffic.
 - **National Weather Service (NWS)** — For locations in supported regions (e.g. United States / nearby areas the App treats as in-range), the App may request **active alerts** from `api.weather.gov`. Requests include **coordinates** and a **User-Agent** string identifying the client as the WhatToWear app. NWS operates under U.S. government policies; refer to their site for details.
 
 The App does **not** use these services to build a personal profile of you on Owl Studios’ systems.
@@ -43,7 +44,7 @@ Stored locally (and, where noted, in the **App Group** shared with the widget ex
 - **User profile preferences** — e.g. warmth bias, formality, rain tolerance, units (metric/imperial), notification and onboarding flags, optional manual city name and coordinates.
 - **Saved cities** — names and coordinates you save for quick switching.
 - **Wardrobe / closet items** — labels and tags you add to describe your own items.
-- **Weather cache** — a recent **weather snapshot** and related data to reduce network use and support offline-style display.
+- **Weather cache** — a recent **weather snapshot** (current conditions, multi-day daily summary, and hourly samples used for charts and notifications) to reduce network use and support offline-style display.
 - **Widget payload** — short text and numbers the **Home Screen widget** can show (e.g. headline, layer summary, temperature-related fields, weather code).
 
 **SwiftData** and **UserDefaults** (including the App Group) are used for this storage. Deleting the App removes its sandbox data unless iOS retains backups according to your device settings.
@@ -57,9 +58,15 @@ If you turn on **smart notifications**, the App schedules **local notifications*
 - **App Intents / Shortcuts** may read **on-device** data (such as your latest cached suggestion) to respond to shortcuts or Siri, subject to Apple’s system permissions.
 - The **widget** reads from the **App Group** container to display the latest suggestion; it does not get a separate login or cloud account from Owl Studios.
 
-### 6. Data we do not intentionally collect
+### 6. Advertising and purchases
 
-In the project as published: **no sign-in**, **no user content uploaded to Owl Studios**, and **no integrated third-party ad or analytics SDKs**. If that changes in a future version, we will update this policy and, where required, the App’s disclosures in the App Store.
+- The App currently integrates **Google AdMob** to display banner ads in the app.
+- AdMob may process technical and device-level information required to request, deliver, and measure ads, as governed by Google's policies.
+- The App supports an in-app purchase to remove ads. Purchase processing is handled by Apple via StoreKit; Owl Studios does not receive your full payment card details.
+
+### 7. Data we do not intentionally collect
+
+In the project as published: **no sign-in** and **no user content uploaded to Owl Studios**. If this changes in a future version, we will update this policy and, where required, the App’s disclosures in the App Store.
 
 ---
 
@@ -75,7 +82,7 @@ If applicable law requires a “legal basis,” we rely on:
 
 ## Your choices and rights
 
-Depending on where you live, you may have rights to **access**, **correct**, **delete**, or **export** personal data, or to **object** to certain processing. Much of WhatToWear’s data is **only on your device** — you can delete it by **deleting the App** or clearing items inside the App. For privacy requests to Owl Studios, contact [support@owlsoftware.studio](mailto:support@owlsoftware.studio?subject=WhatToWear%20Privacy%20Request).
+Depending on where you live, you may have rights to **access**, **correct**, **delete**, or **export** personal data, or to **object** to certain processing. Much of WhatToWear’s data is **only on your device** — you can delete it by **deleting the App** or clearing items inside the App. For privacy requests to Owl Studios, contact **support@owlsoftware.studio**.
 
 **California (CCPA/CPRA):** We do not **sell** or **share** personal information for cross-context behavioral advertising as part of the described App behavior. California residents may have additional rights under state law; use the contact above to exercise them.
 
@@ -83,13 +90,13 @@ Depending on where you live, you may have rights to **access**, **correct**, **d
 
 ## Children
 
-The App is not directed at children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided information, contact [support@owlsoftware.studio](mailto:support@owlsoftware.studio?subject=WhatToWear%20Children%27s%20Privacy) and we will help remove it where feasible.
+The App is not directed at children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided information, contact us and we will help remove it where feasible.
 
 ---
 
 ## International users
 
-Weather requests may be processed on servers operated by **Open-Meteo** and, when used, **U.S. government** (NWS) infrastructure. If you use the App from outside those regions, your information may be transferred as needed to provide the forecast you requested.
+Weather requests may be processed on servers operated by your forecast provider and, when used, **U.S. government** (NWS) infrastructure. If you use the App from outside those regions, your information may be transferred as needed to provide the forecast you requested.
 
 ---
 
@@ -108,7 +115,9 @@ We may update this policy when the App changes. The **“Last updated”** date 
 ## Third-party references
 
 - [Apple Privacy Policy](https://www.apple.com/privacy/)
-- [Open-Meteo](https://open-meteo.com/) — API documentation and any published privacy/terms information
+- [Apple Standard EULA (Terms of Use)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- [Google AdMob / Google Privacy & Terms](https://policies.google.com/privacy)
+- Your weather provider — API documentation and any published privacy/terms information
 - [weather.gov API](https://www.weather.gov/documentation/services-web-api) — NWS API documentation and applicable government notices
 
 ---
