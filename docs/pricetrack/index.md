@@ -3,7 +3,7 @@ layout: default
 title: PriceTrack - Grocery
 ---
 
-# What To Wear Documentation
+# PriceTrack - Grocery Documentation
 
 - [Privacy Policy](./privacy-policy)
 - [Support](./support)
