@@ -8,3 +8,4 @@ title: Owl Software Studio Docs
 - [PriceTrack - Grocery](./pricetrack/)
 - [What To Wear](./whattowear/)
 - [WeatherOnTheRoute](./ontheroute/)
+- [PhotoCleaner](./photocleaner/)
