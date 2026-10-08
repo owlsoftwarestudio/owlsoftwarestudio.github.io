@@ -1,0 +1,8 @@
+title: Owl Software Studio
+description: App documentation, support, and privacy information.
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

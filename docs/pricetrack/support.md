@@ -1,3 +1,8 @@
+---
+layout: default
+title: "PriceTrack Support"
+---
+
 # PriceTrack Support
 
 PriceTrack is a grocery price tracking app that helps you scan receipts, add purchases manually, and compare grocery prices over time.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Privacy Policy for PriceTrack"
+---
+
 # Privacy Policy for PriceTrack
 
 **Effective Date:** May 4, 2026
