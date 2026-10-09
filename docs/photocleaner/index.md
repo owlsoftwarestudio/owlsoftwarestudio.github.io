@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PhotoCleaner Docs
+title: "PhotoCleaner: Swipe & Sort Docs"
 ---
 
-# PhotoCleaner Documentation
+# PhotoCleaner: Swipe & Sort Documentation
 
-- [Privacy Policy](./privacy-policy)
+- [Privacy Policy](./privacy)
 - [Support](./support)

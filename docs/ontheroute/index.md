@@ -1,9 +1,9 @@
 ---
 layout: default
-title: WeatherOnTheRoute Docs
+title: "OnTheRouteWeather Docs"
 ---
 
-# WeatherOnTheRoute Documentation
+# OnTheRouteWeather Documentation
 
-- [Privacy Policy](./privacy-policy)
+- [Privacy Policy](./privacy)
 - [Support](./support)

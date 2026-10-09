@@ -1,9 +1,9 @@
 ---
 layout: default
-title: What To Wear Docs
+title: "WhatToWear? Docs"
 ---
 
-# What To Wear Documentation
+# WhatToWear? Documentation
 
-- [Privacy Policy](./privacy-policy)
+- [Privacy Policy](./privacy)
 - [Support](./support)

@@ -1,27 +1,27 @@
 ---
 layout: default
-title: Support
+title: "Support"
 ---
 
-# WeatherOnTheRoute Support
+# OnTheRouteWeather Support
 
-Official support page for users of the WeatherOnTheRoute iOS app. Contact us for app issues, general feedback, and feature enhancement requests.
+Official support page for users of the OnTheRouteWeather iOS app. Contact us for app issues, general feedback, and feature enhancement requests.
 
 ## Contact Information
 
-Email: [support@owlsoftware.studio](mailto:support@owlsoftware.studio?subject=WeatherOnTheRoute%20Support%20Request)
+Email: [support@owlsoftware.studio](mailto:support@owlsoftware.studio)
 
 You can write to us regarding technical problems, general product feedback, and feature requests.
 
 ## Frequently Asked Questions
 
-### Is WeatherOnTheRoute free?
+### Is OnTheRouteWeather free?
 
 Yes. The app is free, with no account, subscription, in-app purchase or ads.
 
 ### Why does the app ask for my location?
 
-Your location centers the map and can be used as the start of your trip. It is only used while you are using the app. You can still plan trips without it by searching for a start place. You can change this in **Settings → Privacy & Security → Location Services → WeatherOnTheRoute**.
+Your location centers the map and can be used as the start of your trip. It is only used while you are using the app. You can still plan trips without it by searching for a start place. You can change this in **Settings → Privacy & Security → Location Services → OnTheRouteWeather**.
 
 ### Why don't I see weather alerts?
 
@@ -38,6 +38,6 @@ Please include the following details in your message:
 
 ---
 
-This page is the official support contact destination for WeatherOnTheRoute in the App Store.
+This page is the official support contact destination for OnTheRouteWeather in the App Store.
 
-For how we handle personal information, see the [Privacy Policy](./privacy-policy).
+For how we handle personal information, see the [Privacy Policy](./privacy).

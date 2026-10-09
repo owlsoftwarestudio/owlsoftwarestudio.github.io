@@ -11,7 +11,7 @@ PriceTrack is a grocery price tracking app that helps you scan receipts, add pur
 
 **Developer:** Owl Software Studio
 
-**Support Email:** support@owlsoftware.studio
+**Support Email:** [support@owlsoftware.studio](mailto:support@owlsoftware.studio)
 
 **App Name:** PriceTrack - Grocery
 

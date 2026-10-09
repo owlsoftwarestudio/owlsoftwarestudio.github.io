@@ -1,4 +1,31 @@
 (() => {
+  const buttons = document.querySelectorAll('.theme-toggle');
+  const system = matchMedia('(prefers-color-scheme: dark)');
+  let manual = false;
+  try { manual = ['light', 'dark'].includes(localStorage.getItem('owl-theme')); } catch (_) {}
+  function apply(theme) {
+    document.documentElement.dataset.theme = theme;
+    const dark = theme === 'dark';
+    buttons.forEach(button => {
+    button.innerHTML = dark
+      ? '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>'
+      : '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z"/></svg>';
+    button.title = dark ? 'Switch to light mode' : 'Switch to dark mode';
+    button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('aria-pressed', String(dark));
+    });
+  }
+  apply(document.documentElement.dataset.theme || (system.matches ? 'dark' : 'light'));
+  buttons.forEach(button => button.addEventListener('click', () => {
+    manual = true;
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem('owl-theme', next); } catch (_) {}
+  }));
+  system.addEventListener('change', event => { if (!manual) apply(event.matches ? 'dark' : 'light'); });
+})();
+
+(() => {
   const main = document.getElementById('main');
   const pages = new Map();
   const normalize = path => path.replace(/index\.html$/, '').replace(/\.html$/, '').replace(/\/$/, '') || '/';
@@ -12,13 +39,16 @@
   let lastRoute = null;
 
   function render(focus = true) {
-    const route = normalize(currentUrl());
+    const route = normalize(currentUrl()).replace(/\/privacy-policy$/, '/privacy');
+    if (location.hash.endsWith('/privacy-policy')) history.replaceState(null, '', `${homeUrl}#${route}`);
     if (route === lastRoute) return;
     lastRoute = route;
     const page = pages.get(route);
     main.replaceChildren();
     main.className = page === home ? 'home' : 'document';
-    if (page !== home) {
+    const standalone = /\/(privacy|support)$/.test(route);
+    document.body.classList.toggle('standalone-document', standalone);
+    if (page !== home && !standalone) {
       const back = document.createElement('a');
       back.className = 'back-link';
       back.href = homeUrl;

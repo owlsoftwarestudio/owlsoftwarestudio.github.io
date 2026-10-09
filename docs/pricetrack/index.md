@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PriceTrack - Grocery
+title: "PriceTrack - Grocery"
 ---
 
 # PriceTrack - Grocery Documentation
 
-- [Privacy Policy](./privacy-policy)
+- [Privacy Policy](./privacy)
 - [Support](./support)

@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>
+    try {
+      const saved = localStorage.getItem('owl-theme');
+      document.documentElement.dataset.theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (_) { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title | escape }} · Owl Software Studio</title>
   <meta name="description" content="{{ site.description | escape }}">
   <link rel="icon" href="{{ '/assets/logo.png' | relative_url }}" type="image/png">
   <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
 </head>
-<body>
+{% assign standalone_document = false %}
+{% if page.path contains 'privacy.md' or page.path contains 'support.md' %}{% assign standalone_document = true %}{% endif %}
+<body{% if standalone_document %} class="standalone-document"{% endif %}>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="Owl Software Studio home">
@@ -16,18 +24,21 @@
     </a>
     <nav aria-label="Main navigation">
       <a href="{{ '/' | relative_url }}">Our apps</a>
+      <a href="{{ '/' | relative_url }}#about-title">About</a>
       <a href="mailto:support@owlsoftware.studio">Contact support <span aria-hidden="true">↗</span></a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z"/></svg></button>
     </nav>
   </header>
   <main tabindex="-1" id="main" class="{% if page.home %}home{% else %}document{% endif %}">
-    {% unless page.home %}<a class="back-link" href="{{ '/' | relative_url }}">← All apps</a>{% endunless %}
+    {% unless page.home or standalone_document %}<a class="back-link" href="{{ '/' | relative_url }}">← All apps</a>{% endunless %}
     {{ content }}
   </main>
-  <footer><span>Owl Software Studio</span><span>Thoughtful apps. Everyday possibilities.</span><a href="mailto:support@owlsoftware.studio">Get in touch ↗</a></footer>
+  <button class="theme-toggle document-theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z"/></svg></button>
+  <footer><img class="footer-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="Owl Software Studio" width="280" height="200"></footer>
   <div id="route-status" class="sr-only" role="status" aria-live="polite"></div>
   <div id="page-store" hidden>
     {% for document in site.pages %}
-      {% if document.path contains '.md' %}
+      {% if document.path contains '.md' and document.layout != 'redirect' %}
       <template data-url="{{ document.url | relative_url }}" data-title="{{ document.title | default: site.title | escape }}" data-home="{{ document.home | default: false }}">
         {{ document.content | markdownify }}
       </template>
