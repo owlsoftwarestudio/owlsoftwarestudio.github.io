@@ -15,13 +15,14 @@ home: true
 <section class="app-grid" aria-label="Our apps">
   <article class="app-card price">
     <span class="number">01 / GROCERIES</span>
-    <h2>PriceTrack - Grocery</h2>
+    <h2><a href="{{ '/pricetrack/' | relative_url }}">PriceTrack - Grocery</a></h2>
     <p>Understand where your grocery budget goes and how prices change. Scan receipts or add purchases manually to keep a history of the items you buy. Compare prices across stores and over time, spot spending patterns, and make more informed shopping decisions. Optional household sync helps keep shared grocery purchases together.</p>
 
+    <a class="testflight-link" href="https://testflight.apple.com/join/yBjZxhMp" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/testflight-badge.png' | relative_url }}" alt="Get the beta on TestFlight" width="180" height="60"></a>
   </article>
   <article class="app-card wear">
     <span class="number">02 / EVERYDAY STYLE</span>
-    <div class="app-heading"><img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/ae/80/93ae80a9-1061-dfde-3fcf-f041f1612acc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="WhatToWear? app icon" width="64" height="64"><h2>WhatToWear?</h2></div>
+    <div class="app-heading"><img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/ae/80/93ae80a9-1061-dfde-3fcf-f041f1612acc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="WhatToWear? app icon" width="64" height="64"><h2><a href="{{ '/whattowear/' | relative_url }}">WhatToWear?</a></h2></div>
     <p>Take the guesswork out of getting dressed. WhatToWear? turns the weather into practical outfit guidance for layers, shoes, and everyday essentials.</p>
     <ul class="app-features">
       <li><strong>Dress for how it feels.</strong> Get guidance based on feels-like temperature, rain, wind, and UV.</li>
@@ -33,15 +34,17 @@ home: true
   </article>
   <article class="app-card route">
     <span class="number">03 / ON THE ROAD</span>
-    <h2>OnTheRouteWeather</h2>
+    <h2><a href="{{ '/ontheroute/' | relative_url }}">OnTheRouteWeather</a></h2>
     <p>The weather at your destination is only part of the journey. OnTheRouteWeather helps you check forecasts along your route so you can prepare for changing conditions on the way. Plan a commute, road trip, or weekend getaway, save routes for later, and see relevant U.S. weather alerts along your journey. It’s free, with no account, subscription, or ads.</p>
 
+    <a class="testflight-link" href="https://testflight.apple.com/join/ecPnyNSB" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/testflight-badge.png' | relative_url }}" alt="Get the beta on TestFlight" width="180" height="60"></a>
   </article>
   <article class="app-card photo">
     <span class="number">04 / PHOTO LIBRARY</span>
-    <h2>PhotoCleaner: Swipe & Sort</h2>
+    <h2><a href="{{ '/photocleaner/' | relative_url }}">PhotoCleaner: Swipe & Sort</a></h2>
     <p>Give your photo library a little breathing room. PhotoCleaner: Swipe &amp; Sort helps you work through your collection with a simple swipe-based review process. Decide what to keep or remove and make an overwhelming cleanup easier to tackle in small sessions. You stay in control of which photos belong in your collection.</p>
 
+    <a class="testflight-link" href="https://testflight.apple.com/join/Be5snymk" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/testflight-badge.png' | relative_url }}" alt="Get the beta on TestFlight" width="180" height="60"></a>
   </article>
 </section>
 

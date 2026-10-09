@@ -29,7 +29,7 @@
       <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z"/></svg></button>
     </nav>
   </header>
-  <main tabindex="-1" id="main" class="{% if page.home %}home{% else %}document{% endif %}">
+  <main tabindex="-1" id="main" class="{% if page.home %}home{% elsif page.product %}product{% else %}document{% endif %}">
     {% unless page.home or standalone_document %}<a class="back-link" href="{{ '/' | relative_url }}">← All apps</a>{% endunless %}
     {{ content }}
   </main>
@@ -39,7 +39,7 @@
   <div id="page-store" hidden>
     {% for document in site.pages %}
       {% if document.path contains '.md' and document.layout != 'redirect' %}
-      <template data-url="{{ document.url | relative_url }}" data-title="{{ document.title | default: site.title | escape }}" data-home="{{ document.home | default: false }}">
+      <template data-url="{{ document.url | relative_url }}" data-title="{{ document.title | default: site.title | escape }}" data-home="{{ document.home | default: false }}" data-product="{{ document.product | default: false }}">
         {{ document.content | markdownify }}
       </template>
       {% endif %}
