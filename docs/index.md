@@ -16,7 +16,7 @@ home: true
   <article class="app-card price">
     <span class="number">01 / GROCERIES</span>
     <h2>PriceTrack - Grocery</h2>
-    <p>Find documentation and help for tracking grocery purchases and comparing prices.</p>
+    <p>Understand where your grocery budget goes and how prices change. Scan receipts or add purchases manually to keep a history of the items you buy. Compare prices across stores and over time, spot spending patterns, and make more informed shopping decisions. Optional household sync helps keep shared grocery purchases together.</p>
 
   </article>
   <article class="app-card wear">
@@ -34,13 +34,13 @@ home: true
   <article class="app-card route">
     <span class="number">03 / ON THE ROAD</span>
     <h2>OnTheRouteWeather</h2>
-    <p>Find support and privacy information for the weather along your route.</p>
+    <p>The weather at your destination is only part of the journey. OnTheRouteWeather helps you check forecasts along your route so you can prepare for changing conditions on the way. Plan a commute, road trip, or weekend getaway, save routes for later, and see relevant U.S. weather alerts along your journey. It’s free, with no account, subscription, or ads.</p>
 
   </article>
   <article class="app-card photo">
     <span class="number">04 / PHOTO LIBRARY</span>
     <h2>PhotoCleaner: Swipe & Sort</h2>
-    <p>Find PhotoCleaner: Swipe & Sort documentation, get help, and learn about your privacy.</p>
+    <p>Give your photo library a little breathing room. PhotoCleaner: Swipe &amp; Sort helps you work through your collection with a simple swipe-based review process. Decide what to keep or remove and make an overwhelming cleanup easier to tackle in small sessions. You stay in control of which photos belong in your collection.</p>
 
   </article>
 </section>
