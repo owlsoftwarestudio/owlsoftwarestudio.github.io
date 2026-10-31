@@ -49,8 +49,8 @@ home: true
   <article class="app-card">
     <span class="number">05 / TRAVEL DOCUMENTS</span>
     <h2><a href="{{ '/passportsnap/' | relative_url }}">PassportSnap</a></h2>
-    <p>Make passport and visa photos at home. Take or choose a photo, check it against the published rules for your document, and export a digital photo for online forms or a 4×6 print sheet. Face detection and background clean-up run on your iPhone, with no account and no uploads.</p>
-    <p class="release-note">Coming soon to the App Store · <a href="{{ '/passportsnap/privacy' | relative_url }}">Privacy Policy</a> · <a href="{{ '/passportsnap/terms' | relative_url }}">Terms of Use</a></p>
+    <p>Make passport and visa photos at home. Take or choose a photo, check it against the published rules for your document, and export a digital photo for online forms or a 4×6 or 5×7 print sheet. Face detection and background clean-up run on your iPhone, with no account and no uploads.</p>
+    <p class="release-note">Coming soon to the App Store · <a href="{{ '/passportsnap/privacy' | relative_url }}">Privacy Policy</a></p>
   </article>
 </section>
 

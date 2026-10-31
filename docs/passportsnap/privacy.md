@@ -5,7 +5,7 @@ title: "Privacy Policy for PassportSnap"
 
 # Privacy Policy for PassportSnap
 
-**Effective date:** TBD (draft of October 31, 2026)
+**Effective date:** October 31, 2026
 
 PassportSnap ("PassportSnap", "the app") is an iPhone app from Owl Software Studio ("we", "our", "us") that helps you take and prepare passport and visa photos. This Privacy Policy explains what information the app handles and how.
 
@@ -18,7 +18,7 @@ PassportSnap ("PassportSnap", "the app") is an iPhone app from Owl Software Stud
 ## Information the app processes
 
 - **Photos you take or choose:** You can take a photo with the camera or pick one from your photo library with the iOS photo picker. PassportSnap uses Apple's Vision framework on your device to find your face and facial landmarks, separate you from the background, check things like centring, head size, eyes, lighting and background, and crop and resize the photo to the document you chose. All of this happens on your iPhone. Your photo, and any information derived from it such as face position or landmarks, is not sent to us or to anyone else.
-- **Settings stored on your device:** The app saves a few preferences in its own storage on your iPhone (iOS UserDefaults): your default print layout, default camera, whether haptics are on, the documents you used recently and whether you have finished the welcome screens. This data stays on your device and we cannot see it.
+- **Settings stored on your device:** The app saves a few preferences in its own storage on your iPhone (iOS UserDefaults): your default print paper size (4×6 in or 5×7 in), default camera, whether haptics are on, the documents you used recently and whether you have finished the welcome screens. This data stays on your device and we cannot see it.
 - **Temporary export files:** When you share a photo or print sheet, the app writes a temporary copy to its own temporary folder on your iPhone so the share sheet can use it. The app deletes earlier copies the next time you share, and iOS may clear this folder at any time.
 
 PassportSnap does not use face data for identification, does not build a profile of you, and does not keep a library of your photos.
@@ -44,8 +44,8 @@ PassportSnap offers a one-time in-app purchase to unlock full features. Purchase
 PassportSnap does not send your data to any server we run. The only connections the app makes are:
 
 - **App Store requests** handled by Apple's StoreKit, to show the price, make a purchase and restore or check your purchase.
-- **Links you tap,** such as the official government page for a document, this policy or the Terms of Use, which open outside the app in your browser.
-- **Contact support,** which opens your email app with a draft that includes the app version, device model and iOS version. Nothing is sent unless you send that email yourself.
+- **Links you tap,** such as the official government page for a document or this policy, which open outside the app in your browser.
+- **Email to support,** only if you choose to contact us. **Contact support** and **Request a country** open your email app with a draft to support@owlsoftware.studio; the Contact support draft includes the app version, device model and iOS version. Nothing is sent unless you send that email yourself, and we use what you send only to reply to you.
 
 ## Third-party services
 
@@ -81,6 +81,5 @@ For privacy questions, contact us at:
 
 [support@owlsoftware.studio](mailto:support@owlsoftware.studio)
 
-See also the [Terms of Use](./terms).
 
 © 2026 Owl Software Studio. All rights reserved.
