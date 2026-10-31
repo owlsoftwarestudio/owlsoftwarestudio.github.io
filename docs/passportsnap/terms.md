@@ -37,7 +37,7 @@ PassportSnap can be downloaded for free. Some features, such as exports without 
 
 - The purchase is a one-time, non-consumable purchase. It is not a subscription and does not renew.
 - Payment is processed by Apple through the App Store and is charged to your Apple ID. Apple's terms, including the [App Store Terms of Service](https://www.apple.com/legal/internet-services/itunes/), apply to your purchase.
-- You can restore the purchase on devices signed in to the same Apple ID with **Restore Purchases** in the app's Settings. The purchase is not currently shared through Family Sharing.
+- You can restore the purchase on devices signed in to the same Apple ID with **Restore Purchases** in the app's Settings. If you use Family Sharing, the unlock can be shared with your Family Sharing group, subject to [Apple's Family Sharing rules](https://www.apple.com/family-sharing/).
 - **Refunds are handled by Apple, not by us.** We cannot see your payment details or issue refunds ourselves. To request a refund, visit [reportaproblem.apple.com](https://reportaproblem.apple.com) or see [Apple's refund guide](https://support.apple.com/118223). If Apple refunds or revokes a purchase, the unlocked features are removed from the app.
 
 ## Your photos and content
