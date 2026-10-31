@@ -52,13 +52,21 @@ PassportSnap, its design, code, text and graphics are owned by Owl Software Stud
 
 The app links to government websites and other third-party sites. We do not control those sites and are not responsible for their content or practices.
 
+## Availability and local laws
+
+PassportSnap is offered worldwide through the App Store, subject to the App Store's availability in your country. You are responsible for using the app in line with the laws and rules that apply where you live, and with the photo rules of the authority you apply to.
+
+## Your rights as a consumer
+
+Nothing in these Terms limits or excludes any rights you have under mandatory consumer protection laws that cannot be waived by contract, such as those in the European Union, the United Kingdom and Australia. For example, if you live in Australia, our goods and services come with guarantees that cannot be excluded under the Australian Consumer Law. If any part of these Terms conflicts with those rights, those rights apply.
+
 ## Disclaimer of warranties
 
-To the maximum extent permitted by law, PassportSnap is provided "as is" and "as available", without warranties of any kind, whether express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy and non-infringement. We do not warrant that the app will be error-free, that its checks will be accurate, or that it will meet your requirements.
+To the extent permitted by law, PassportSnap is provided "as is" and "as available", without warranties of any kind, whether express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy and non-infringement. To the extent permitted by law, we do not warrant that the app will be error-free, that its checks will be accurate, or that it will meet your requirements.
 
 ## Limitation of liability
 
-To the maximum extent permitted by law, Owl Software Studio will not be liable for any indirect, incidental, special, consequential or punitive damages, or for any loss arising from a rejected or delayed application, missed travel, application or photo fees, or reprinting costs, arising from your use of or inability to use PassportSnap. Our total liability for any claim relating to the app will not exceed the amount you paid for PassportSnap Unlock. Some jurisdictions do not allow certain limitations, so some of these may not apply to you.
+To the extent permitted by law, Owl Software Studio will not be liable for any indirect, incidental, special, consequential or punitive damages, or for any loss arising from a rejected or delayed application, missed travel, application or photo fees, or reprinting costs, arising from your use of or inability to use PassportSnap. To the extent permitted by law, our total liability for any claim relating to the app will not exceed the amount you paid for PassportSnap Unlock. Some jurisdictions do not allow certain exclusions or limitations, so some of these may not apply to you. This section does not limit liability that cannot be limited by law, such as liability for death or personal injury caused by negligence, or for fraud.
 
 ## Apple
 

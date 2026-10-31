@@ -57,6 +57,16 @@ PassportSnap does not include third-party analytics, advertising, crash-reportin
 - Settings and temporary files stay on your iPhone until you delete the app, which removes them.
 - Photos you saved to Photos or shared stay where you put them and are managed by you.
 
+## Your rights by region
+
+Depending on where you live, privacy laws give you rights over your personal data. These include the right to access, correct or erase your data and to object to or restrict its use under the EU General Data Protection Regulation (GDPR) and the UK GDPR, the right to know, delete and opt out of the sale or sharing of personal information under the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), and similar rights under other laws, such as those in other U.S. states, Canada, Brazil, Australia and India.
+
+PassportSnap does not collect personal data or send it off your device, so we hold no personal data about you to access, correct, delete or transfer, and we do not sell or share personal information. The data the app uses stays on your iPhone, and you can remove it at any time by deleting the app or the photos you saved.
+
+Purchase data, such as your Apple ID and payment details, is handled by Apple under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). To exercise your rights over that data, contact Apple.
+
+If you have questions about your rights or this policy, contact us at [support@owlsoftware.studio](mailto:support@owlsoftware.studio). You may also have the right to complain to your local data protection authority.
+
 ## Children's privacy
 
 PassportSnap is not directed to children under 13, and we do not knowingly collect personal information from children under 13. The app does not collect personal information from anyone. A parent or guardian can use PassportSnap to make a photo for a child; that photo is processed on the device in the same way and is not sent to us.
