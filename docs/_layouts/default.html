@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
 </head>
 {% assign standalone_document = false %}
-{% if page.path contains 'privacy.md' or page.path contains 'support.md' %}{% assign standalone_document = true %}{% endif %}
+{% if page.path contains 'privacy.md' or page.path contains 'support.md' or page.path contains 'terms.md' %}{% assign standalone_document = true %}{% endif %}
 <body{% if standalone_document %} class="standalone-document"{% endif %}>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
