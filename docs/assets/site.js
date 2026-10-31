@@ -46,7 +46,7 @@
     const page = pages.get(route);
     main.replaceChildren();
     main.className = page === home ? 'home' : page?.dataset.product === 'true' ? 'product' : 'document';
-    const standalone = /\/(privacy|support)$/.test(route);
+    const standalone = /\/(privacy|support|terms)$/.test(route);
     document.body.classList.toggle('standalone-document', standalone);
     if (page !== home && !standalone) {
       const back = document.createElement('a');
