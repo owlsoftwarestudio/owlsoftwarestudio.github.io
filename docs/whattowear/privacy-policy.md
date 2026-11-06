@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_to: /whattowear/privacy
+redirect_to: https://owlsoftware.studio/whattowear/privacy
 ---
