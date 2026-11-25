@@ -5,7 +5,8 @@ title: "Terms of Use for Prismai"
 
 # Terms of Use for Prismai
 
-**Effective date:** November 25, 2026
+**Effective date:** November 25, 2026  
+**Last updated:** November 25, 2026
 
 These Terms of Use ("Terms") apply to the Prismai iPhone app ("Prismai", "the app") from Owl Software Studio ("we", "our", "us"). By downloading or using Prismai you agree to these Terms. If you do not agree, do not use the app.
 
@@ -33,10 +34,11 @@ The local API is optional and off by default. If you turn it on, the app listens
 
 ## Purchases
 
-Prismai can be downloaded for free. Some features, such as additional chat models, image generation, hands-free voice and the local API, may require a one-time in-app purchase ("Prismai Pro"). The price is shown in the app before you buy.
+Prismai can be downloaded for free. Hands-free voice, Studio image generation and the local API may require a one-time in-app purchase ("Prismai Pro"). All chat models stay free. The price is shown in the app before you buy.
 
 - The purchase is a one-time, non-consumable purchase. It is not a subscription and does not renew.
 - Payment is processed by Apple through the App Store and is charged to your Apple ID. Apple's terms, including the [App Store Terms of Service](https://www.apple.com/legal/internet-services/itunes/), apply to your purchase.
+- We use RevenueCat to verify and restore your purchase. RevenueCat does not process your payment.
 - You can restore the purchase on devices signed in to the same Apple ID with **Restore Purchases** in the app.
 - **Refunds are handled by Apple, not by us.** We cannot see your payment details or issue refunds ourselves. To request a refund, visit [reportaproblem.apple.com](https://reportaproblem.apple.com) or see [Apple's refund guide](https://support.apple.com/118223). If Apple refunds or revokes a purchase, the unlocked features are removed from the app.
 - Optional tips paid on Ko-fi are processed by Ko-fi, not by us, and do not unlock Prismai Pro.
