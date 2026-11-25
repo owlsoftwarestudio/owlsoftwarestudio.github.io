@@ -38,7 +38,6 @@ Prismai may ask for:
 
 - **Microphone and Speech Recognition:** only for dictation, and only with on-device recognition, as described above.
 - **Photo library / photo picker:** only when you choose a photo so the app can read text from it. When you pick a photo, iOS gives the app the item you selected.
-- **Local network:** the app still requests this permission in connection with the local API. You can change it in iOS Settings.
 
 You can change these permissions at any time in iOS Settings.
 
@@ -121,7 +120,7 @@ Prismai is not directed to children under 13, and we do not knowingly collect pe
 - You can delete individual chats or uninstall the app to remove local app data.
 - You can turn web search and the local API off in Settings. Both stay off until you turn them on.
 - You can delete downloaded models in the app.
-- You can change microphone, speech, Photos and local-network permissions in iOS Settings.
+- You can change microphone, speech and Photos permissions in iOS Settings.
 - You can leave Apple Intelligence off, or not select Apple's model, if you do not want to use it.
 
 ## Changes to this policy
