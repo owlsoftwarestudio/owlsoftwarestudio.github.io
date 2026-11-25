@@ -38,7 +38,7 @@ Prismai may ask for:
 
 - **Microphone and Speech Recognition:** only for dictation, and only with on-device recognition, as described above.
 - **Photo library / photo picker:** only when you choose a photo so the app can read text from it, or when you choose to save a generated image to Photos. When you pick a photo, iOS gives the app the item you selected.
-- **Local network:** only if you turn on the local API, so devices on the same Wi-Fi can reach the server on your iPhone.
+- **Local network:** the app still requests this permission in connection with the local API. You can change it in iOS Settings.
 
 You can change these permissions at any time in iOS Settings.
 
@@ -74,7 +74,7 @@ Settings includes a "Buy me a coffee" link. If you tap it, an in-app browser ope
 
 **Shortcuts.** Prismai provides App Intents so you can ask a question, start a new chat or open a persona from Siri or the Shortcuts app. Processing runs on your iPhone. You can also keep a list of your own shortcut names in the app and ask Prismai to run them. The app asks before running a shortcut unless you choose "Always allow." Shortcut names and that preference stay on your device. When a shortcut runs, the Shortcuts app handles it under Apple's terms.
 
-**Local API.** The local API is **off by default**. If you turn it on, Prismai starts a small HTTP server on port 8080 on your iPhone's local Wi-Fi address while the app is in the foreground, and stops it when you leave the app or turn the setting off. Other devices on the same Wi-Fi can send chat requests to that address. **There is no password or other access control.** Anyone who can reach that address can send prompts to the model on your iPhone and receive replies. Prompts and replies on this path are not sent to us. Use this setting only on a network you trust, and turn it off when you are done.
+**Local API.** The local API is **off by default**. If you turn it on, Prismai starts a small HTTP server that listens only on the iPhone itself (localhost, port 8080) while the app is in the foreground, and stops it when you leave the app or turn the setting off. Other devices cannot reach this server. Only apps running on the same iPhone can send requests to it. **There is no password or other access control**, so any app on the device could use the API while it is on. Prompts and replies on this path are not sent to us. Turn it off when you are done.
 
 ## Sharing and export
 
@@ -96,7 +96,7 @@ Prismai does not send your chats, files or voice to any server we run. The conne
 
 ## Third-party services
 
-The third-party libraries bundled in the app are used to run features on your device or on your local network: llama.cpp for local chat models, Apple's ml-stable-diffusion for on-device image generation, and Swifter for the optional local API. They do not add analytics, advertising, crash-reporting or tracking.
+The third-party libraries bundled in the app are used to run features on your device: llama.cpp for local chat models, Apple's ml-stable-diffusion for on-device image generation, and Swifter for the optional local API. They do not add analytics, advertising, crash-reporting or tracking.
 
 We do not include RevenueCat, Firebase, Sentry, TelemetryDeck or other analytics, crash-reporting or advertising SDKs.
 
