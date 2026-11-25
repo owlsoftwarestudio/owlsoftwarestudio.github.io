@@ -16,7 +16,7 @@ Prismai ("Prismai", "the app") is an iPhone app from Owl Software Studio ("we", 
 - Models you choose from the catalog are downloaded once from Hugging Face and then run locally on your device.
 - Optional web search is off by default. If you turn it on, only the search words (usually your question) are sent to DuckDuckGo, along with ordinary request data such as your IP address.
 - Optional use of Apple's on-device model is provided by Apple's Foundation Models framework and is subject to Apple's terms.
-- There is no account, no advertising and no cross-app tracking in the app. We use RevenueCat only to verify and restore Prismai Pro.
+- There is no account, no advertising and no cross-app tracking in the app. We use RevenueCat for app functionality (unlocking and restoring Prismai Pro) and for analytics.
 - We do not sell your personal information. We do not run a server that receives your chats, files or voice.
 
 ## Information stored on your device
@@ -61,9 +61,9 @@ On a compatible iPhone running iOS 26 or later, you can choose Apple's on-device
 
 ## Purchases
 
-Prismai can be downloaded for free. Hands-free voice and the local API may require a one-time in-app purchase ("Prismai Pro"). All chat models stay free. Payment is processed by Apple through the App Store and is charged to your Apple ID. We do not receive or store your payment details, name or Apple ID.
+Prismai can be downloaded for free. All chat models are free. Prismai Pro, a one-time purchase, unlocks only hands-free voice and the local API. Payment is processed by Apple through the App Store and is charged to your Apple ID. We do not receive or store your payment details, name or Apple ID.
 
-To verify and restore Prismai Pro, [RevenueCat, Inc.](https://www.revenuecat.com/) acts as our service provider and processor. RevenueCat receives your purchase history from Apple, an anonymous app user ID that RevenueCat generates, and basic device and app information such as the OS version, app version and country or storefront. We do not create an account for you, and we do not send RevenueCat your name, email address or an advertising identifier. We do not set subscriber attributes on your RevenueCat customer profile, and we do not use RevenueCat for tracking or advertising. RevenueCat handles this information under [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy).
+To verify and restore Prismai Pro, [RevenueCat, Inc.](https://www.revenuecat.com/) acts as our service provider and processor. RevenueCat receives your purchase history from Apple, an anonymous app user ID that RevenueCat generates, and basic device and app information such as the OS version, app version and country or storefront. This information is used for app functionality (unlocking Prismai Pro and restoring purchases) and for analytics. We do not create an account for you, and we do not send RevenueCat your name, email address or an advertising identifier. We do not set subscriber attributes on your RevenueCat customer profile, and we do not use RevenueCat for tracking or advertising. RevenueCat handles this information under [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy).
 
 The app may also ask Apple to show the system review prompt. That request goes to Apple, not to us. A tip paid on Ko-fi, described below, does not unlock Pro and is not processed by us.
 
@@ -92,7 +92,7 @@ Prismai does not send your chats, files or voice to any server we run. The conne
 - **Hugging Face,** when you download a model, as described above.
 - **DuckDuckGo,** if you use optional web search, as described above.
 - **Apple,** for App Store purchases and restore, the optional review prompt, Apple Intelligence / Foundation Models if you choose that model, and other iOS platform services (including Watch Connectivity and the Shortcuts app).
-- **RevenueCat,** to verify and restore Prismai Pro, as described above.
+- **RevenueCat,** to verify and restore Prismai Pro and for purchase analytics, as described above.
 - **Ko-fi,** only if you open the optional tip link.
 - **Links you open,** such as search sources or this policy, which open in a browser or in-app browser.
 
@@ -100,7 +100,7 @@ Prismai does not send your chats, files or voice to any server we run. The conne
 
 The third-party libraries bundled in the app are used to run features on your device: llama.cpp for local chat models, and Swifter for the optional local API. They do not add analytics, advertising, crash-reporting or tracking.
 
-We do not include Firebase, Sentry, TelemetryDeck or other analytics, crash-reporting or advertising SDKs. RevenueCat is included only to verify and restore purchases, as described above.
+We do not include Firebase, Sentry, TelemetryDeck or other analytics, crash-reporting or advertising SDKs. RevenueCat is included to verify and restore purchases and for purchase analytics, as described above.
 
 Third-party services the app may contact (Hugging Face, DuckDuckGo, Apple, RevenueCat, and Ko-fi if you open it) have their own privacy practices and terms.
 

@@ -34,7 +34,7 @@ The local API is optional and off by default. If you turn it on, the app listens
 
 ## Purchases
 
-Prismai can be downloaded for free. Hands-free voice and the local API may require a one-time in-app purchase ("Prismai Pro"). All chat models stay free. The price is shown in the app before you buy.
+Prismai can be downloaded for free. All chat models are free. Prismai Pro, a one-time purchase, unlocks only hands-free voice and the local API. The price is shown in the app before you buy.
 
 - The purchase is a one-time, non-consumable purchase. It is not a subscription and does not renew.
 - Payment is processed by Apple through the App Store and is charged to your Apple ID. Apple's terms, including the [App Store Terms of Service](https://www.apple.com/legal/internet-services/itunes/), apply to your purchase.
